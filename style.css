@@ -1,0 +1,253 @@
+*{
+    margin: 0px;
+    
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+html::-webkit-scrollbar{
+    width: 15px;
+}
+
+html::-webkit-scrollbar-track{
+    background: rgb(10, 0, 0);
+}
+html::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(180deg, rgb(205, 205, 100), rgb(169, 101, 38));
+    border-radius: 20px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+.login {
+    background-image: linear-gradient(135deg, rgb(205, 205, 100), rgb(169, 101, 38)) !important;
+}
+
+.text-gold {
+    color: gold !important;
+}
+
+.featured-content1{
+    height: 50vh;
+    padding: 0px 50px;
+    background: url('img/interstellar\ new\ banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.featured-content2{
+    height: 50vh;
+    padding: 0px 50px;
+    box-shadow: 60px 0px 60px rgb(10, 0, 0) inset;
+    background: linear-gradient(to bottom, transparent, rgb(10,0,0)), url('img/dune\ banner.jpg');
+}
+.feature-logo{
+    width: 400px;
+}
+.feature-des{
+    width: 500px;
+    color: #FFF;
+    margin: 20px 0px;
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+.feature-but{
+    background-image: linear-gradient(135deg, rgb(205, 205, 100), rgb(169, 101, 38));
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family:'Sen', sans-serif;
+    cursor: pointer;
+}
+.list-item-img{
+    width: 290px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+.movie-list-item:hover .list-item-img{
+    transform: scale(1.2);
+    margin: 0px 30px;
+    opacity: 0.1;
+}
+.movie-list-item:hover .list-item-tit,
+.movie-list-item:hover .list-item-des,
+.movie-list-item:hover .item-button{
+    opacity: 1;
+}
+
+
+.movie-list-wrapper{
+    padding: 0px 50px;
+    margin-top: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.movie-list{
+    display: flex;
+    height: 220px;
+    align-items: center;
+    transform: translateX(0);
+    transition: all 0.5s ease-in-out;
+}
+.movie-list-item{
+    margin-right: 30px;
+    position: relative;
+}
+.list-item-tit{
+    padding: 0px 10px;
+    font-size: 30px;
+    max-height: 40px;
+    overflow: hidden;
+    font-weight: bold;
+    position: absolute;
+    color: white;
+    top: 10px;
+    left: 21px;
+    opacity: 1;
+    pointer-events: none;
+    opacity: 0;
+    transition: 0.3s all ease-in-out;
+}
+.list-item-des{
+    padding: 10px;
+    width: 200px;
+    max-height: 52px;
+    overflow: hidden;
+    font-size: 13px;
+    position: absolute;
+    color: white;
+    top:35px;
+    left: 21px;
+    opacity: 1;
+    pointer-events: none;
+    opacity: 0;
+    transition: 0.3s all ease-in-out;
+}
+.item-button{
+    padding: 10px 15px;
+    background-image: linear-gradient(135deg, rgb(205, 205, 100), rgb(169, 101, 38));
+    border: none;
+    border-radius: 17px;
+    position: absolute;
+    bottom: 1px;
+    left: 30px;
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.3s all ease-in-out;
+}
+.arrsl{
+    font-size: 40px;
+    position: absolute;
+    top: 90px;
+    background-image: linear-gradient(135deg, rgb(205, 205, 100), rgb(169, 101, 38));
+    background-clip: text;
+    color: transparent;
+    right: 10;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.arrsl:hover{
+    scale: 1.5;
+}
+
+.movie-list-title{
+    background-image: linear-gradient(135deg, rgb(205, 205, 100), rgb(169, 101, 38));
+    padding-top: 60px;
+    background-clip: text;
+    color: transparent;
+}
+h1{
+    cursor: default;
+}
+/* BODY FOR SECOND PAGE */
+
+.trailer{
+    margin-left: 60px;
+    max-width: 95%;
+}
+.about-title{
+    margin: 50px 70px;
+    width: auto;
+}
+.cast{
+    margin-left: 17%;
+    margin-bottom: 50px;
+}
+/* BODY END OF SECOND PAGE */
+
+/* FOOTER */
+.foot{
+    background-color: rgb(20, 0, 0);
+    padding-bottom: 150px;
+}
+.foot-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    margin-top: 100px;
+    font-size: 50px;
+    background-image: linear-gradient(135deg, rgb(205, 205, 100), rgb(169, 101, 38));
+    background-clip: text;
+    color: transparent;
+}
+.para{
+    width: 550px;
+    margin-left: 170px;
+    background-image: linear-gradient(135deg, rgb(205, 205, 100), rgb(169, 101, 38));
+    background-clip: text;
+    color: transparent;
+    font-size: 15px;
+}
+.handles{
+    font-size: 25px;
+    margin-left: 50px;
+    background-image: linear-gradient(135deg, rgb(205, 205, 100), rgb(169, 101, 38));
+    background-clip: text;
+    color: transparent;
+}
+.foot-desc{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.sociallogo{
+    font-size: 30px;
+    margin-left: 30px;
+}
+.fa-brands{
+    background-image: linear-gradient(135deg, rgb(205, 205, 100), rgb(169, 101, 38));
+    background-clip: text;
+    color: transparent;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.copyright{
+    background-image: linear-gradient(135deg, rgb(205, 205, 100), rgb(169, 101, 38));
+    background-clip: text;
+    color: transparent;
+    font-size: 12px;
+    margin-left: 40.5%;
+    margin-top: 50px;
+}
+/* FOOTER END */
+
+                                                                  
+
+@media only screen and (max-width: 1300px){
+    .menu-container{
+        display: none;
+    }
+}
